@@ -20,7 +20,7 @@ unzip opencv_contrib.zip
 
 echo "Acquiring pip"
 wget https://bootstrap.pypa.io/get-pip.py 
-sudo python get-pip.py -y
+sudo python get-pip.py
 
 echo "Installing virtual environments. . ."
 sudo pip install virtualenv virtualenvwrapper
