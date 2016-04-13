@@ -2,7 +2,7 @@
 
 echo "Starting shell script"
 echo "Installing requirements"
-sudo apt-get install build-essential git cmake pkg-config -force-yes
+sudo apt-get install build-essential git cmake pkg-config --force-yes
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev --force-yes
 sudo apt-get install libxvidcore-dev libx264-dev --force-yes
 sudo apt-get install libgtk2.0-dev --force-yes
